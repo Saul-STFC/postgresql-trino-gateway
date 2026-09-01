@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      checks: write # Needed for rustsec/audit-check to publish a check run 
+      checks: write # Needed for rustsec/audit-check to publish a check run
       issues: write # Needed for rustsec/audit-check to file an issue per advisory
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
